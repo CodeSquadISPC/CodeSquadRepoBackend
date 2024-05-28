@@ -28,7 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ecommerce',
     # 'rest_framework_simplejwt',
-    'productos',
+
     'rest_framework',
     'corsheaders',
 ]
@@ -80,7 +80,7 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': 'Candela_3',  # Introducir contraseña
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': '3307',
     }
 }
 
