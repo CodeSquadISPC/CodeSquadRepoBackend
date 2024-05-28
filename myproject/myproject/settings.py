@@ -27,8 +27,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ecommerce',
-    'rest_framework_simplejwt',
-
+    # 'rest_framework_simplejwt',
+    'productos',
     'rest_framework',
     'corsheaders',
 ]
@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mercadolibro',
+        'NAME': 'mercado_libro',
         'USER': 'root',
         'PASSWORD': 'Candela_3',  # Introducir contraseña
         'HOST': 'localhost',
